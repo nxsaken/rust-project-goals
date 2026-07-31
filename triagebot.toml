@@ -12,3 +12,4 @@ message_on_add = """\
 message_on_remove = "goals#{number}'s nomination has been removed. Thanks all for participating!"
 message_on_close = "goals#{number} has been closed. Thanks for participating!"
 message_on_reopen = "goals#{number} has been reopened. Pinging @*T-types*."
+github_comment = "[Zulip topic]({zulip_topic_url}) was opened to discuss this issue."
