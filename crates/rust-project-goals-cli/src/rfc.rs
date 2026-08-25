@@ -584,8 +584,22 @@ fn initialize_issues<'doc>(
                     .iter()
                     .map(|label| label.name.clone())
                     .collect();
-                let desired_label_names: BTreeSet<String> =
-                    desired_issue.labels.iter().cloned().collect();
+                let desired_label_names: BTreeSet<String> = desired_issue
+                    .labels
+                    .iter()
+                    .cloned()
+                    .chain(existing_issue.labels.iter().filter_map(|label| {
+                        matches!(
+                            label.name.as_str(),
+                            "ex-2025h2"
+                                | "Flagship Goal"
+                                | "R-every-4-weeks"
+                                | "R-every-2-weeks"
+                                | "R-every-week"
+                        )
+                        .then(|| label.name.clone())
+                    }))
+                    .collect();
 
                 if existing_label_names != desired_label_names {
                     actions.insert(GithubAction::SyncLabels {
