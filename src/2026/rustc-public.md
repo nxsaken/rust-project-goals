@@ -3,7 +3,7 @@
 | Metadata         |                                   |
 | :--------------- | --------------------------------- |
 | Contact | @makai410                         |
-| Status           | Proposed                          |
+| Status           | Accepted                          |
 | [project-rustc-public] champion | @celinval          |
 | Tracking issue   | [rust-lang/goals#266]             |
 | Timespan         | 2026-2027                         |
