@@ -3,13 +3,14 @@
 | Metadata | |
 | :-- | :-- |
 | Contact | @jlizen |
-| Status | Proposed |
+| Status | Accepted |
 | Zulip channel | N/A |
 | [crates-io] champion | @Turbo87 |
 | [cargo] champion | @eh2406 |
 | [docs-rs] champion | @syphar |
 | [infra] champion | @ubiratansoares |
 | [social-media] champion | @m-ou-se |
+| Tracking issue | [rust-lang/goals#816] |
 
 ## Summary
 
