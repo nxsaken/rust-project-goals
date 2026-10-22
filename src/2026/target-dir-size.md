@@ -7,7 +7,7 @@
 | Roadmap        | Binary size reduction                                                                 |
 | What and why   | Reduce the size of temporary compilation artifacts so developers need less disk space |
 | Tracking issue | [rust-lang/goals#830]                                                                 |
-| [cargo] champion | @weihanglo
+| [cargo] champion | @weihanglo |
 | [compiler] champion | @petrochenkov |
 | [wg-compiler-performance] champion | @Kobzol |
 | [infra] champion | @Kobzol |
